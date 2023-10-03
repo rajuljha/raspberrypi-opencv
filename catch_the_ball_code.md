@@ -102,7 +102,7 @@ while True:
     
     # Check for key presses
     key = cv2.waitKey(1)
-    if key == ord('q'):
+    if key == ord('q') or key == 27:
         break
     elif key == ord('a'):
         paddleX -= paddleSpeed
